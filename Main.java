@@ -32,7 +32,7 @@ public class Main {
                     int max = 0;
                     String name;
                     while (input1 != 6) {
-                        System.out.println(" choose what you want to do\n 1-add to cart" +
+                        System.out.println(" choose what you want to do\n1-add to cart" +
                                 "\n2-delete from cart \n3-show cart \n4-make order \n5-show catalog again \n6-exit ");
                         input1 = scanner.nextInt();
                         switch (input1) {
